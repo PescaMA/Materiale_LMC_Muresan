@@ -207,8 +207,7 @@ C:  x apartine lui C
    [x apartine lui A sau (x apartine lui B si x apartine lui C)] <=>
    [(x apartine lui A sau x apartine lui B) si (x apartine lui A sau x apartine lui C)].
    Asadar distributivitatea reuniunii fata de intersectie se transcrie in distributivitatea disjunctiei fata de conjunctia logica.
-   Demonstram ca orice triplet de valori booleene satisface aceasta echivalenta aratand ca nu exista triplet de valori booleene care sa nu satisfaca aceasta echivalenta, folosind predicatul member si faptul ca, pentru a satisface not(Scop), Prolog-ul incearca mai intai sa satisfaca Scop, iar, daca nu gaseste satisfaceri ale acestuia, intoarce true pentru not(Scop).
-   Pentru a verifica faptul ca Prolog-ul trece prin toate tripletele de valori booleene incercand sa satisfaca argumentul not-ului cel mai exterior de mai jos, vom si afisa, la fiecare pas, tripletul curent.
+   Demonstram ca orice triplet de valori booleene satisface aceasta echivalenta aratand ca nu exista triplet de valori booleene care sa nu satisfaca aceasta echivalenta, folosind predicatul member si faptul ca, pentru a satisface not(Scop), Prolog-ul incearca mai intai sa satisfaca Scop, iar, daca nu gaseste satisfaceri ale acestuia, intoarce true pentru not(Scop). Pentru a verifica faptul ca Prolog-ul trece prin toate tripletele de valori booleene incercand sa satisfaca argumentul not-ului cel mai exterior de mai jos, vom si afisa, la fiecare pas, tripletul curent.
    Atentie la perechile suplimentare de paranteze necesare pentru ca Prolog-ul sa nu confunde conjunctiile cu separatori de argumente! */
 
 % Sa definim conectorii logici de implicatie si echivalenta:
